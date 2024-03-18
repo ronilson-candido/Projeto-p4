@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/store.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>Mayzo</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho  container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="logo navbar-brand" href="index.html">Wakanda Phone Store
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="./celulares/apple.html" class="nav-link">Apple</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="./celulares/asus.html" class="nav-link">Asus</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="./celulares/motorola.html" class="nav-link">Motorola</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a href="./celulares/samsung.html" class="nav-link">Samsung</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquise um produto..."
+                            aria-label="Search">
+                            <a class="btn btn-dark my-2 my-sm-0" href="login.html">login</a>
+                        </li>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="contatoTitle container mt-3">
+            <div class="row ">
+                <div class="col-xs-12">
+                    <span class="destaqueHome">Contato</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="duvidas ml-4 col-xs-12 col-sm-11 col-md-5 mt-5">
+                    <form action="#" onsubmit="return validarForm()">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Digite seu email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione sua dúvida</label>
+                            <select class="form-control" id="opcoesProblemas">
+                                <option>Produto com defeito</option>
+                                <option>Garantia</option>
+                                <option>Troca/Devolução</option>
+                                <option>Prazo de entrega</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Conte com detalhes</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="troca ml-4 col-xs-12 col-sm-11 col-md-6 mt-5">
+                    <form action="#" onsubmit="return validarForm()">
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
+                                <label for="inputEmail4 col-sm-3">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Seu email...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Endereço</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="AV. Paulista - 554">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-xl-5 col-md-12">
+                                <label for="inputCity">Cidade</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-xl-3 col-md-12">
+                                <label for="inputState">Estado</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Escolha...</option>
+                                    <option>São Paulo</option>
+                                    <option>Rio de Janeiro</option>
+                                    <option>Minas Gerais</option>
+                                    <option>Bahia</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-1">
+                                <label for="inputZip">CEP</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Conte com detalhes</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                        <div id="mensagem"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="logo-footer col-xl-12 text-center mb-5">
+                        <h3>Wakanda Phone Store</h3>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="info text-center col-xs-12 col-sm-12 col-md-4 col-xl-4 ml-4">
+                        <h6>Informações</h6>
+                        <ul class=" footer-margin">
+                            <li><a href="#">Prazo de entrega</a></li>
+                            <li><a href="#">Troca e devoluções</a></li>
+                            <li><a href="#">Termos e condições</a></li>
+                            <li><a href="#">Rastreie seu pedido</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="sobre text-center col-xs-12 col-sm-12 col-md-3 col-xl-3 ml-3">
+                        <h6>Sobre nós</h6>
+                        <ul class="footer-margin">
+                            <li><a href="#">Sobre a marca</a></li>
+                            <li><a href="#">Nossas lojas</a></li>
+                            <li><a href="#">Política de segurança </a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="newsletter text-center col-xs-12 col-sm-12 col-md-3 col-xl-3">
+                        <h6>Nosso newsletter</h6>
+                        <form>
+                            <div class="form-group col-xs-12">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Seu email...">
+                                <button type="submit" class="btn btn-dark mt-1">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

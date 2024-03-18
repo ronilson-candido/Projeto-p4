@@ -1,0 +1,627 @@
+.container-fluid {
+     padding: 0 !important;
+}
+
+
+#conteudo a{
+    text-decoration: none;
+    color: #ebe4e4;
+}
+#conteudo a:hover{
+    color: #ffffff;
+}
+
+html, body
+{
+    background-color: #f5f1f1 !important;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+    width: 220px;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    border: none;
+}
+
+/* HEADER */
+.logo, .landing-text h1 {
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#home {
+    background: url('https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+home {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    animation: slide 40s infinite;
+}
+
+.landing-text h1 {
+    color: #f3f2f2;
+    font-size: 70px;
+}
+
+.landing-text p {
+    color: #f3f2f2;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.landing-text a{
+    width: 150px;
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+.landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form-inline button{
+    width: 220px;
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    border: none;
+    animation: butt 
+}
+
+.form-inline input {
+    width: 220px;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.banner {
+    background: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiz1KHS047hAhUIo1kKHaNXAQ8QjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D%26url%3Dhttps%253A%252F%252Funsplash.com%252Fsearch%252Fphotos%252Fandroid-wallpaper%26psig%3DAOvVaw3_GMJxsmsEpyM9KnxSCznE%26ust%3D1553100298316384&psig=AOvVaw3_GMJxsmsEpyM9KnxSCznE&ust=1553100298316384') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* CONTEUDO */
+#conteudo img {
+    width: 190px;
+    height: 220px;
+}
+
+.item {
+    margin-top: 5%;
+    background-color: #fffefe;
+    padding: 2%;
+}
+
+.item p {
+    margin-top: -10px;
+}
+
+.parcela {
+    font-weight: bold;
+    color: rgb(71, 67, 67);
+    font-size: 24px;
+}
+
+#conteudo button{
+    text-transform: uppercase;
+    border-radius: 0;
+    color: #ece6e6;
+    box-shadow: none;
+    width: 150px;
+    height: 45px;
+}
+
+hr {
+    width: 190px;
+}
+
+.destaque, .contatoTitle {
+    background-color: #1f1e1e;
+    border: solid 1px #ccc;
+    color: #f1eeee;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -20px !important;
+    width: 100% !important;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.destaqueHome {
+    margin-left: 30px;
+}
+
+
+/* PAGAMENTO */
+.pagamento {
+    background-color: #ffffff;
+    margin-bottom: 10%;
+    width: 87% !important;
+
+}
+
+.pagamento-p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #918d8d;
+    font-size: 11px;
+}
+
+
+/* SOBRE */
+.sobreloja {
+    background-color: #fffefe;
+    width: 87%  !important;
+    border: solid 1px rgb(228, 230, 231);
+}
+
+.sobreloja h1 {
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #202020;
+}
+
+.sobreloja p {
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+/* GARANTIA */
+.garantia {
+    background-color: #fffefe;
+    width: 87%  !important;
+    border: solid 1px rgb(228, 230, 231);
+}
+
+.garantia h2 {
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2e2d2d;
+}
+.garantia a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.garantia a:hover {
+    text-decoration: none;
+    color: #1a1919;
+    border-bottom: 1px dotted #0a0a0a;
+}
+
+
+.garantia li {
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+/*TROCA/DUVIDAS*/
+.troca{
+    background-color: #ffffff;
+    padding: 2%;
+    width: 250px;
+    border: solid 1px rgb(188, 190, 190);
+}
+
+
+.duvidas {
+    background-color: #ffffff;
+    padding: 2%;
+    width: 250px;
+    border: solid 1px rgb(188, 190, 190);
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+#inputZip {
+    width: 150px;
+}
+
+input[type="search"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+
+input[type="email"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+#opcoesProblemas {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+#inputState {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+
+/*INFO*/
+.comprainfo img {
+    margin-bottom: 10px;
+}
+
+.comprainfo p {
+    margin-top: -10px;
+}
+
+.comprainfo h6 {
+    margin-bottom: 20px;
+}
+
+.strong {
+    font-weight: bold;
+    color: #2c2c2c;
+}
+
+.comprainfo {
+    background-color: #fffefe;
+    width: 87% !important;
+    border: solid 1px #dad8d8;
+}
+
+.comprainfo h2 {
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #202020;
+}
+
+.comprabonus a {
+    color: rgb(110, 109, 109) !important;
+    margin-left: 20px;
+}
+
+.comprabonus a:hover {
+    color: #2c2c2c !important;
+}
+
+.comprainfo li {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.itemcompra {
+    margin-top: 20%;
+    background-color: #fffefe;
+    padding: 2%;
+    width: 87% !important;
+    border: solid 1px #dad8d8;
+}
+
+.itemcompra p {
+    margin-top: -10px;
+}
+
+.rating a {
+    color: #0a0a0a !important;
+}
+
+.rating input {
+    width: 190px !important;
+    margin-left: 23%;
+}
+
+.rating button {
+    width: 190px !important;
+
+}
+
+.capacidade a {
+    color: #636060 !important;
+    border: solid 1px #a3a1a1;
+    padding: 2%;
+    font-weight: bold;
+    margin-top: 10px !important;
+}
+
+.capacidade a:hover {
+    color: #4d4b4b !important;
+    border: solid 1px #2c2c2c !important;
+}
+.img-section {
+    
+    position: relative;
+}
+.trocarImg img {
+    width: 60px !important;
+    height: 65px !important;
+    border: solid 1px #ccc; 
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 4% 4%;
+    background-color: #141414;
+    margin-top: 5%;
+}
+
+footer h3 {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    color: #ececeb;
+    font-size: 3em;
+}
+
+.logo-footer {
+    border-bottom: solid #222222 1px;
+    padding: 4px;
+}
+
+.fab {
+    font-size: 1.5em;
+    color: #b8b8b8;
+    margin-bottom: 15px;
+}
+
+.fab:hover {
+    text-decoration: none;
+    color: #faf9f9;
+}
+
+footer a{
+    color: #eeeeee !important;
+    font-size: 14px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #faf9f9;
+}
+
+footer h6 {
+    color: #ced1d488;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.newsletter input {
+    width: 250px !important;
+    padding: 6px;
+    box-shadow: none;
+    border: none !important;
+    background-color: transparent !important;
+    border-bottom: solid #2e2d2d !important;
+    width: 220px;
+    border-radius: 0;
+    padding: 6px;
+    box-shadow: none !important;
+}
+
+.footer-margin {
+    margin-left: -40px;
+}
+
+.newsletter button {
+    width: 250px;
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+/* Media Queries */
+@media (min-width: 320px) {
+    .item {
+        width: 60% !important;
+        margin-left: 20%;
+    }
+
+    .destaque {
+        width: 100% !important;
+        margin-bottom: -18px !important;
+        font-size: 15px;
+    }
+
+    .destaqueHome {
+        margin-left: 20px;
+    }
+
+    .rating input {
+        margin-left: 20% !important;
+    }
+
+    .newsletter input {
+        margin-left: 43px !important;
+    }
+    
+}
+
+@media (min-width:520px ){
+    .item {
+        width: 60% !important;
+        margin-left: 5%;
+    }
+
+    .destaque {
+        width: 100% !important;
+    }
+
+    .rating input {
+        margin-left: 15% !important;
+    }
+    
+    .newsletter input {
+        margin-left: 25.3% !important;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    /* Secao Compra */
+    .itemcompra img {
+        width: 315px !important;
+        height: auto !important;
+    }
+    .iteminfo {
+        margin-left: 25%; 
+    }
+
+    .iteminfo2 {
+        margin-left: 50%;
+        margin-top: -20%;
+    }
+
+    .item {
+        width: 0% !important;
+        margin-left: 5%;
+    }
+
+    .duvidas button{
+        margin-top: 69%;
+    }
+
+    .btn-danger {
+        margin-left: 0 !important;
+        margin-top: 0;
+    }
+
+    .destaque {
+        width:100% !important;
+        margin-bottom: -25px !important;
+    }
+
+    .newsletter input {
+        margin-left: 0px !important;
+    }
+
+    #inputEmail4 {
+        width: 440% !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .comprainfo {
+        width: 20px;
+    }
+    .newsletter {
+        margin-left: 10% !important;
+    }
+
+    .itemcompra img {
+        width: 315px !important;
+        height: auto !important;
+        margin-left: 0%; 
+    }
+
+    .iteminfo {
+        margin-left: 4%; 
+        margin-top: 5%;
+        border-right: solid 1px #ccc;
+        height: 220px;
+    }
+
+    .iteminfo2 {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .item {
+        width: 0% !important;
+        margin-left: 0%;
+    }
+
+    .shadow {
+        width: 200px !important;
+    }
+
+    .sobreloja p {
+        width: 50%;
+        margin-left: 24%;
+        
+    }
+
+    .garantia li {
+        width: 50%;
+        margin-left: 24%;
+    }
+
+    .duvidas button{
+        margin-top: 4%;
+    }
+
+    .destaque {
+        width:100% !important;
+        margin-bottom: -36px !important;
+    }
+
+    .pagamento-icons {
+        margin-left: 5% !important;
+    }
+    #inputEmail4 {
+        width: 422% !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .iteminfo {
+        margin-left: 0%; 
+        margin-top: 5%;
+        border-right: solid 1px #ccc;
+        height: 220px;
+    }
+
+
+    .itemcompra img {
+        width: 315px !important;
+        height: auto !important;
+        margin-left: 10%; 
+    }
+}
